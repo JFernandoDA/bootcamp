@@ -223,7 +223,7 @@ if (preciototal>0) {
             break;
         default:
             console.log ("El iva aplicables es del 21%. Valor del IVA por unidad: ", iva);
-            onsole.log ("El total IVA es de: ", getTotalVat(product)); //Se muestra por consola el total del IVa (IVA Unitario*unidades) llando a la función previamente declarada
+            console.log ("El total IVA es de: ", getTotalVat(product)); //Se muestra por consola el total del IVa (IVA Unitario*unidades) llando a la función previamente declarada
             break;
     }
 }else {
@@ -231,4 +231,3 @@ if (preciototal>0) {
 }
 
 
-c
