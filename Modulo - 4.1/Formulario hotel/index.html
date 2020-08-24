@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./site.css">
+    <title>Reserva Hotel</title>
+</head>
+<body>
+    <header id="cabecera"><h1>Reserva Hotel</h1></header>
+    <div id="cuerpo-reserva">
+
+        <div class="fila">
+            <div class="columna">
+                <div class="container">
+                    <div class="fila">
+                        <div class="columna">
+                            <h2>Hotel JavaScript</h2>
+                            <img id ="fotoHotel" class="foto" src="./img/standar.jpg"><br><br>
+                            <label for="tipoHab">Seleccione tipo de habitación</label><br>
+                            <select id="tipoHab">
+                                <option value="1">Habitación Standar</option>
+                                <option value="2">Suite Junior</option>
+                                <option value="3">Suite Superior</option>
+                            </select><br><br>
+                            <label for="numNoches">Número de noches</label><br>
+                            <input type="number" id="numNoches" min="0" value="1">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+
+        <div class="columna">
+            <div class="container">
+                <h3>Servicios adicionales</h3>
+                <label for="parking">Cuantas noches de parking desea</label>
+                <input type="number" id="parking" min="0"><br><br>
+                <label for="spa">Desea usar nuestro SPA</label>
+                <input type="checkbox" id="spa">
+            </div>
+        </div>
+
+    </div>
+     
+
+        <h1 id="precio">Precio</h1>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>

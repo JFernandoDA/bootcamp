@@ -47,7 +47,6 @@ function listarCarrito (){
 }
 //----------------------------------------------------------------------------------------------------------------------------------
 
-
     //Función que lista el carrito de la compra en consola y el el documento HTML
     function listarDetalles () {
 
