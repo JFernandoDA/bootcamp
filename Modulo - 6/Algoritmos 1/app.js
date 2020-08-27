@@ -87,7 +87,6 @@ function createList () {  // Lista los elementos del carrito creando los element
         
         createInput (item,divProducto);
         
-
         i++;  //Incrementamos el contador de productos
     }
 }
@@ -103,7 +102,7 @@ var createInput = (item,div) => {  //Función que crea los inputs con la cantida
     quantity.setAttribute("max", item.stock); //El número máximo deartículos que podemos elegir es el stock que hay de cada artículo
 
     quantity.addEventListener("change", event => item.units =event.target.valueAsNumber); // Con el evento change cambiamos la cantidad de productos
-    quantity.addEventListener ("change",activateButon); //le añadimos en evento change para con cada cambio compruebe si tiene que actvar o no el botón
+    quantity.addEventListener ("change",activateButton); //le añadimos en evento change para con cada cambio compruebe si tiene que actvar o no el botón
 
     div.appendChild(quantity);  //y lo hacemos hijo del contenedor que almacena cada productos
 }
@@ -143,7 +142,7 @@ var calcularFactura = () =>{        // Calcula el importe a pagar  llamando a la
 } 
 
 
-var activateButon = () => {  // Habilita o desabilita el botón de calcular dependiendo si hay productos o no
+var activateButton = () => {  // Habilita o desabilita el botón de calcular dependiendo si hay productos o no
         var desactivar = true;
 
         for (var producto of products){
@@ -160,7 +159,7 @@ var activateButon = () => {  // Habilita o desabilita el botón de calcular depe
       
 }
 
-activateButon (); //Comprobamos al inicio  si hay que activar o no el boón en función de si hay unidades en el carrito o no
+activateButton (); //Comprobamos al inicio  si hay que activar o no el boón en función de si hay unidades en el carrito o no
 
 createList ();// Listamos los elementos del carrito de la compra
 
