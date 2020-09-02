@@ -1,0 +1,20 @@
+
+div {
+    margin-right: auto;
+    margin-left: auto;
+    border: solid black 1px;
+    width: 50%;
+    text-align: center;
+}
+
+input {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+button {
+    margin-bottom: 20px
+}
