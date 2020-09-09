@@ -1,0 +1,17 @@
+{
+  "name": "laboratorio_modulo_8",
+  "version": "1.0.0",
+  "description": "Laboratorio Modulo 8",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fernando",
+  "license": "ISC",
+  "dependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "devDependencies": {},
+  "keywords": []
+}
