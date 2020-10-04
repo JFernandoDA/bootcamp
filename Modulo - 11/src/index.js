@@ -6,7 +6,7 @@ const bookings = new Classes.normalClient();
 bookings.booking = Data.reservas;
 
 console.log("El subtotal para un cliente normal es: ",bookings.subtotal, "€");
-console.log("El precio incluyendo el 10% de IVA es de: ",bookings._totalPrice,"€");
+console.log("El precio incluyendo el 10% de IVA es de: ",bookings.total,"€");
 
 
 

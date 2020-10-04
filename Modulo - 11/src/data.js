@@ -19,6 +19,4 @@ const reservas = [
     }
   ];
 
-
-
  export { reservas };
